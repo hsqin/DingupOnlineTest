@@ -1,0 +1,38 @@
+2016-03-28 19:08:30  [ RMI TCP Connection(2)-127.0.0.1:1 ] - [ INFO ]  Root WebApplicationContext: initialization started
+2016-03-28 19:08:30  [ RMI TCP Connection(2)-127.0.0.1:330 ] - [ INFO ]  Refreshing Root WebApplicationContext: startup date [Mon Mar 28 19:08:30 CST 2016]; root of context hierarchy
+2016-03-28 19:08:30  [ RMI TCP Connection(2)-127.0.0.1:441 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-mybatis.xml]
+2016-03-28 19:08:32  [ RMI TCP Connection(2)-127.0.0.1:1825 ] - [ INFO ]  Root WebApplicationContext: initialization completed in 1819 ms
+2016-03-28 19:08:32  [ RMI TCP Connection(2)-127.0.0.1:1898 ] - [ INFO ]  FrameworkServlet 'dispatcher': initialization started
+2016-03-28 19:08:32  [ RMI TCP Connection(2)-127.0.0.1:1905 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 28 19:08:32 CST 2016]; parent: Root WebApplicationContext
+2016-03-28 19:08:32  [ RMI TCP Connection(2)-127.0.0.1:1907 ] - [ INFO ]  Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2519 ] - [ INFO ]  Mapped URL path [/img/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2546 ] - [ INFO ]  Mapped URL path [/js/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2551 ] - [ INFO ]  Mapped URL path [/css/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2566 ] - [ INFO ]  Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2695 ] - [ INFO ]  Mapped "{[/],methods=[GET]}" onto public java.lang.String com.dingup.onlinetest.controller.HomeController.index(org.springframework.ui.ModelMap)
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2707 ] - [ INFO ]  Mapped "{[/reading],methods=[GET]}" onto public java.lang.String com.dingup.onlinetest.controller.ReadingController.index()
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2707 ] - [ INFO ]  Mapped "{[/reading/summary],methods=[GET]}" onto public java.lang.String com.dingup.onlinetest.controller.ReadingController.summary()
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2708 ] - [ INFO ]  Mapped "{[/reading/get_questions.do],methods=[GET]}" onto public void com.dingup.onlinetest.controller.ReadingController.getQuestions(java.lang.String,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2709 ] - [ INFO ]  Mapped "{[/reading/get_question.do],methods=[GET]}" onto public void com.dingup.onlinetest.controller.ReadingController.getQuestion(java.lang.String,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2711 ] - [ INFO ]  Mapped "{[/reading/get_article.do],methods=[GET]}" onto public void com.dingup.onlinetest.controller.ReadingController.getArticle(java.lang.String,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2713 ] - [ INFO ]  Mapped "{[/reading/save_answer.do],methods=[GET]}" onto public void com.dingup.onlinetest.controller.ReadingController.saveAnswer(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2715 ] - [ INFO ]  Mapped "{[/reading/get_summary_info.do],methods=[GET]}" onto public void com.dingup.onlinetest.controller.ReadingController.getSummaryInfo(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:2716 ] - [ INFO ]  Mapped "{[/reading/start_exam.do],methods=[GET]}" onto public void com.dingup.onlinetest.controller.ReadingController.startExam(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:3329 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 28 19:08:32 CST 2016]; parent: Root WebApplicationContext
+2016-03-28 19:08:33  [ RMI TCP Connection(2)-127.0.0.1:3429 ] - [ INFO ]  Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Mar 28 19:08:32 CST 2016]; parent: Root WebApplicationContext
+2016-03-28 19:08:34  [ RMI TCP Connection(2)-127.0.0.1:3679 ] - [ INFO ]  FrameworkServlet 'dispatcher': initialization completed in 1781 ms
+2016-03-28 19:08:35  [ http-bio-8080-exec-1:5309 ] - [ INFO ]  ygl-info.
+2016-03-28 19:08:35  [ http-bio-8080-exec-1:5310 ] - [ WARN ]  ygl-warn
+2016-03-28 19:08:35  [ http-bio-8080-exec-1:5310 ] - [ ERROR ]  ygl-error
+2016-03-28 19:08:37  [ http-bio-8080-exec-2:6719 ] - [ INFO ]  ygl-info.
+2016-03-28 19:08:37  [ http-bio-8080-exec-2:6719 ] - [ WARN ]  ygl-warn
+2016-03-28 19:08:37  [ http-bio-8080-exec-2:6719 ] - [ ERROR ]  ygl-error
+2016-03-28 19:08:38  [ http-bio-8080-exec-5:7849 ] - [ INFO ]  ygl-info.
+2016-03-28 19:08:38  [ http-bio-8080-exec-5:7857 ] - [ WARN ]  ygl-warn
+2016-03-28 19:08:38  [ http-bio-8080-exec-5:7857 ] - [ ERROR ]  ygl-error
+2016-03-28 19:08:38  [ http-bio-8080-exec-7:8261 ] - [ INFO ]  ygl-info.
+2016-03-28 19:08:38  [ http-bio-8080-exec-7:8261 ] - [ WARN ]  ygl-warn
+2016-03-28 19:08:38  [ http-bio-8080-exec-7:8261 ] - [ ERROR ]  ygl-error
+2016-03-28 20:01:28  [ http-bio-8080-exec-9:3178449 ] - [ INFO ]  ygl-info.
+2016-03-28 20:01:28  [ http-bio-8080-exec-9:3178450 ] - [ WARN ]  ygl-warn
+2016-03-28 20:01:28  [ http-bio-8080-exec-9:3178450 ] - [ ERROR ]  ygl-error
